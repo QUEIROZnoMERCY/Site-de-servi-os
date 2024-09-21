@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+footer {
+    background-color: #555555;
+    padding: 20px;
+    text-align: center;
+    border-top: 5px solid #2b2b2b;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-content p {
+    margin: 10;
+}
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fcfcfc;
+}
+H1{
+    text-align: center;
+    font-family: top1;
+    height: 100px;
+    color: #fcfcfc;
+    font-size: 88px;
+}
+h3{
+text-align: center;
+color: #fcfcfc;
+font-size: xx-large;
+}
+.Info{
+    color: #fcfcfc;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: x-large;
+    border: 1px solid #555555;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+nav {
+    background-color: #555555;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 60px;
+    justify-content: center;
+    border-block-end: 5px solid #2b2b2b;
+    font-size: x-large;
+}
+nav a {
+    color: #fcfcfc;
+    text-decoration: none;
+}
+
+
+
+
+@font-face {
+    font-family: 'top1';
+    src: url(Nebula-Hollow.otf);
+}
